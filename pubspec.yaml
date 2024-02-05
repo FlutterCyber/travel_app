@@ -1,0 +1,40 @@
+name: travel_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: snow
+      fonts:
+        - asset: assets/fonts/snow.otf
+
+    - family: madchen
+      fonts:
+        - asset: assets/fonts/madchen.ttf
+  #       - assets: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
